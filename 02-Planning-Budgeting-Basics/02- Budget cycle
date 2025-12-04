@@ -1,0 +1,87 @@
+budget : financial plan for a year
+
+budget is locked once it is planned.
+
+budget cycle: how the business plans across time --> repeated process like annual budget, monthly forecast, quarterly outlook 
+
+1) annual budget cycle:
+high detail overview of deciding budget allocation, driven by revenue targets, cost control, headcount planning etc. involves multiple departments, takes weeks or months to prepare
+
+epbcs implementation tasks:
+-----------------------------
+create budget scenario
+define forms for data entry
+create bottom up and top down alignment
+configure approvals by entity ( appovals by entity means each entity submits their plans, and it has to go through approvals )
+
+2) monthly forcast cycle:
+to track expected performance during year
+rolling forecasts for 18 months
+less detailed than annual budget
+
+EPBCS tasks
+------------------
+create forecast scenario
+define driver based modules
+load actuals to seed forecast
+automate forecast calculations
+
+3) quarterly forecast:
+
+realigining major assumptions every quarter
+more detailed than monthly forecast
+adjust key drivers : sales growth, market trends fx rates
+
+EPBCS tasks
+------------
+have scenarios , q1 outlook, q2 outlook
+create forms that allow analysts to adjust drivers
+update connected financial statements
+
+Budget cycle stages
+--------------------
+top down budgeting targets  (can be achieved using versions)  --> not enabled for approvals
+bottom up budgeting planning
+driver based calculations
+consolidation
+approval workflow
+publishing final budget
+
+EPBCS functionalities to support these:
+approvals
+data forms
+business rules
+dashboards
+
+-------------------------------------------------------
+
+what happens in organization
+
+** looking at current year actuals and forecast, company decides to allocate budget,
+** how budget allocation takes place ?? either setting targets at top level or allocating at bottom level
+** here comes the concept of top down and bottom up budgeting --> can be achieved using versions
+** how it is achieved .... (entity based) --> as entity defines business structure
+          top level ---> targets are set at parent level and lower levels are distributed using formulas
+          bottom level --> targets are passed onto base level and rolled upto target
+** budget entity wise is planned and goes through approval
+** budget is set for next year before the next fiscal year starts (setting, revenue goals, expenses,capex, headcounts, marigns)
+** budget is approved by leadership
+
+---> planning cycle starts after budgeting:
+
+** actuals get loaded every day ( data loads )
+** these actuals will seed monthly forecast models ( 12- 18 rolling forecast)
+** after actuals are loaded, planners update forecast for remaining months to check performance, fix early variances, predict short term future and support operations and make decisions
+** for every quarter, analysts try to look at overall budget to make corrections
+** this is called quarterly outlook/ reforecast
+** at the end of each quarter , big assumptions are revisited, reset expectations by changing drivers, course correct if budget looks unrealistic, provide revised guidance to management
+
+
+--------------------
+
+why rolling forecast for 18 months, if budget is for year ??
+
+because business doesnt stop at that fiscial year
+rolling forecast enables us to set budgets based on the future numbers
+to understand long term impact on the budget and decisions made now
+and because same application is used for next year

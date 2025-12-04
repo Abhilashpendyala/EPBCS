@@ -1,0 +1,20 @@
+traditionally chart of accounts are the collection of all accounts that are used to store transactions.
+
+Eg: current assets, current liabilites and equity. also the accounts that are inside the granularity of these.
+
+in epbcs, account dimension is core of chart of accounts, along with other dimensions
+
+traditional chart of accounts are stored under account dimension
+
+COA in ERP and EPM systems:
+Account (represent actual transaction stored)
+Entity ( representing the organizational structure granularity of how business is operating)
+flow of budget is modelled using entity
+Scenario ( represents what it is qualified for, whether it is meant for plan, or budget and for comparision )
+version ( represents state of data, whether it is final, or draft or working)
+period ( represents the data value for particular period)
+year ( represents data associated with particular year)
+currency ( for multi currency applications, represents the transactional currency or planned currency)
+custom dimensions ( product, department, market)( for qualifying and planning data based on cust dimns)
+
+
