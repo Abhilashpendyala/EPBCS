@@ -1,0 +1,1881 @@
+{
+	"tldrawFileFormatVersion": 1,
+	"schema": {
+		"schemaVersion": 2,
+		"sequences": {
+			"com.tldraw.store": 5,
+			"com.tldraw.asset": 1,
+			"com.tldraw.camera": 1,
+			"com.tldraw.document": 2,
+			"com.tldraw.instance": 25,
+			"com.tldraw.instance_page_state": 5,
+			"com.tldraw.page": 1,
+			"com.tldraw.instance_presence": 6,
+			"com.tldraw.pointer": 1,
+			"com.tldraw.shape": 4,
+			"com.tldraw.asset.bookmark": 2,
+			"com.tldraw.asset.image": 5,
+			"com.tldraw.asset.video": 5,
+			"com.tldraw.shape.group": 0,
+			"com.tldraw.shape.text": 3,
+			"com.tldraw.shape.bookmark": 2,
+			"com.tldraw.shape.draw": 2,
+			"com.tldraw.shape.geo": 10,
+			"com.tldraw.shape.note": 9,
+			"com.tldraw.shape.line": 5,
+			"com.tldraw.shape.frame": 1,
+			"com.tldraw.shape.arrow": 7,
+			"com.tldraw.shape.highlight": 1,
+			"com.tldraw.shape.embed": 4,
+			"com.tldraw.shape.image": 5,
+			"com.tldraw.shape.video": 4,
+			"com.tldraw.binding.arrow": 1
+		}
+	},
+	"records": [
+		{
+			"x": 46.40074669943817,
+			"y": 239.25596397471912,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:HUM0G_lNWIEQ2QT0RHm49",
+			"type": "geo",
+			"props": {
+				"w": 1008.8881875,
+				"h": 91,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "page:5bcyliInXGeWTLxPHizh9",
+			"index": "a4LGc3CV",
+			"typeName": "shape"
+		},
+		{
+			"id": "pointer:pointer",
+			"typeName": "pointer",
+			"x": -12.036917749012218,
+			"y": 93.0558152458159,
+			"lastActivityTimestamp": 1764324550250,
+			"meta": {}
+		},
+		{
+			"x": -19,
+			"y": -42,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 0.5,
+			"meta": {},
+			"id": "shape:7ZtePZ-EGnzTBLhVhEeyz",
+			"type": "geo",
+			"props": {
+				"w": 170,
+				"h": 61.6875,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "accounting"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "a1ZJ4RAV",
+			"typeName": "shape"
+		},
+		{
+			"x": 46,
+			"y": 449.8046875,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 0.75,
+			"meta": {},
+			"id": "shape:Qrh9uy4h-z7qFIPSSv4Yy",
+			"type": "text",
+			"props": {
+				"color": "red",
+				"size": "m",
+				"w": 449.421875,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "balance sheet is prepared quarterly"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:dhxsp0GPiJ003NsEtKe3M",
+			"index": "a5D2rNOV",
+			"typeName": "shape"
+		},
+		{
+			"x": -69,
+			"y": 335.8046875,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:AJY7WJDqC931z4xkfAUN7",
+			"type": "text",
+			"props": {
+				"color": "blue",
+				"size": "m",
+				"w": 493.921875,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "accounting principles : GAAP, STAT, IFRS"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "a75v7s0V",
+			"typeName": "shape"
+		},
+		{
+			"editingShapeId": null,
+			"croppingShapeId": null,
+			"selectedShapeIds": [],
+			"hoveredShapeId": null,
+			"erasingShapeIds": [],
+			"hintingShapeIds": [],
+			"focusedGroupId": null,
+			"meta": {},
+			"id": "instance_page_state:page:MIlfUDWRqEZGs2QoU89r8",
+			"pageId": "page:MIlfUDWRqEZGs2QoU89r8",
+			"typeName": "instance_page_state"
+		},
+		{
+			"x": 273.52801222681876,
+			"y": -22.14095355321645,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:e6kIBqg-vfbl6WkZm7CPa",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "l",
+				"w": 243.05599421213114,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 0.5709706748868787,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "transactions --> journal entries"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "a32VthEV",
+			"typeName": "shape"
+		},
+		{
+			"x": 58.59551980337085,
+			"y": 253.52312844101124,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 0.5,
+			"meta": {},
+			"id": "shape:RBYL44Mu_RcfwuvDoSMDe",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 965.09375,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "indirect method : net profit + non cash expenses + change in working capital"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "                                    +cash flow due to finance activities"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						}
+					]
+				}
+			},
+			"parentId": "page:5bcyliInXGeWTLxPHizh9",
+			"index": "a358UU08",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "page:oYtIGPLCF-To6gNulJ7aQ",
+			"name": "Page 2",
+			"index": "a2p6DfdV",
+			"typeName": "page"
+		},
+		{
+			"x": 893.208465866167,
+			"y": 521.5048542102511,
+			"z": 0.4425925925925926,
+			"meta": {},
+			"id": "camera:page:page",
+			"typeName": "camera"
+		},
+		{
+			"x": 201.70151264044947,
+			"y": 364.42049297752817,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:Dl4XQsqVP0vv9wkT4WFRg",
+			"type": "text",
+			"props": {
+				"color": "blue",
+				"size": "m",
+				"w": 591.8125,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "direct method : add all the cash expenses from"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "                                      start"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:5bcyliInXGeWTLxPHizh9",
+			"index": "a6OxoeVV",
+			"typeName": "shape"
+		},
+		{
+			"editingShapeId": null,
+			"croppingShapeId": null,
+			"selectedShapeIds": [
+				"shape:1bXcd22P7LEeimti5VBDm"
+			],
+			"hoveredShapeId": "shape:1bXcd22P7LEeimti5VBDm",
+			"erasingShapeIds": [],
+			"hintingShapeIds": [],
+			"focusedGroupId": null,
+			"meta": {},
+			"id": "instance_page_state:page:zr613PhWtTNWRzs7vdquH",
+			"pageId": "page:zr613PhWtTNWRzs7vdquH",
+			"typeName": "instance_page_state"
+		},
+		{
+			"meta": {},
+			"id": "page:dhxsp0GPiJ003NsEtKe3M",
+			"name": "Page 3",
+			"index": "a3KTWQdV",
+			"typeName": "page"
+		},
+		{
+			"editingShapeId": null,
+			"croppingShapeId": null,
+			"selectedShapeIds": [
+				"shape:BW5_NqtoOOgMwuJJr1-Ga"
+			],
+			"hoveredShapeId": "shape:onsJYEQmLUx-bnLa1oX-d",
+			"erasingShapeIds": [],
+			"hintingShapeIds": [],
+			"focusedGroupId": null,
+			"meta": {},
+			"id": "instance_page_state:page:_qWBqbv8V7kHS8b4qDIGy",
+			"pageId": "page:_qWBqbv8V7kHS8b4qDIGy",
+			"typeName": "instance_page_state"
+		},
+		{
+			"x": 0,
+			"y": 0,
+			"z": 1,
+			"meta": {},
+			"id": "camera:page:MIlfUDWRqEZGs2QoU89r8",
+			"typeName": "camera"
+		},
+		{
+			"meta": {},
+			"id": "page:5bcyliInXGeWTLxPHizh9",
+			"name": "Page 5",
+			"index": "a57tbYxV",
+			"typeName": "page"
+		},
+		{
+			"editingShapeId": null,
+			"croppingShapeId": null,
+			"selectedShapeIds": [],
+			"hoveredShapeId": null,
+			"erasingShapeIds": [],
+			"hintingShapeIds": [],
+			"focusedGroupId": null,
+			"meta": {},
+			"id": "instance_page_state:page:page",
+			"pageId": "page:page",
+			"typeName": "instance_page_state"
+		},
+		{
+			"x": 240,
+			"y": 51.8046875,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:Gmk7ye-fgGOg4ZSFbnk8F",
+			"type": "text",
+			"props": {
+				"color": "blue",
+				"size": "m",
+				"w": 364.796875,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "making financial statements:"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						}
+					]
+				}
+			},
+			"parentId": "page:zr613PhWtTNWRzs7vdquH",
+			"index": "a1WnUZtl",
+			"typeName": "shape"
+		},
+		{
+			"x": 0,
+			"y": 0,
+			"z": 1,
+			"meta": {},
+			"id": "camera:page:zr613PhWtTNWRzs7vdquH",
+			"typeName": "camera"
+		},
+		{
+			"x": 0,
+			"y": 0,
+			"z": 1,
+			"meta": {},
+			"id": "camera:page:_qWBqbv8V7kHS8b4qDIGy",
+			"typeName": "camera"
+		},
+		{
+			"x": 88,
+			"y": 137,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 0.75,
+			"meta": {},
+			"id": "shape:qrwdu7trxS-sNYXbC2Epe",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 793,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "LHS OF BALANCE SHEET : DEBIT NATURE"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "RHS OF BALANCE SHEET : CREDIT NATURE ( expenses exception)"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						}
+					]
+				}
+			},
+			"parentId": "page:dhxsp0GPiJ003NsEtKe3M",
+			"index": "a4RyLzIG",
+			"typeName": "shape"
+		},
+		{
+			"x": 41,
+			"y": 444.8046875,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 0.75,
+			"meta": {},
+			"id": "shape:BW5_NqtoOOgMwuJJr1-Ga",
+			"type": "text",
+			"props": {
+				"color": "red",
+				"size": "m",
+				"w": 881.203125,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "income statement gives comparision between top line and bottom line "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "of a company"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:_qWBqbv8V7kHS8b4qDIGy",
+			"index": "a3QcmIPV",
+			"typeName": "shape"
+		},
+		{
+			"x": 49,
+			"y": 496.8046875,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 0.75,
+			"meta": {},
+			"id": "shape:2AM4lKn8IDaJB3Ibkafgn",
+			"type": "text",
+			"props": {
+				"color": "red",
+				"size": "m",
+				"w": 959.96875,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "fccs : balance sheet for reporting . epbcs : balance sheet for forecast ( rare )"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:dhxsp0GPiJ003NsEtKe3M",
+			"index": "a6VLR1vV",
+			"typeName": "shape"
+		},
+		{
+			"x": 72,
+			"y": 175.8046875,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:0V8ktMsNgsX-z0QhDc85a",
+			"type": "text",
+			"props": {
+				"color": "light-green",
+				"size": "m",
+				"w": 471.53125,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "credit account : liabilities and income"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "debit accounts : assets and expenses "
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "a5AeCPiV",
+			"typeName": "shape"
+		},
+		{
+			"x": -99,
+			"y": 264.8046875,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:Vj90BjEZRBszwBFOdjxxC",
+			"type": "text",
+			"props": {
+				"color": "blue",
+				"size": "m",
+				"w": 587.953125,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "types of accounts : real, personal and nominal "
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "a6xEnn1V",
+			"typeName": "shape"
+		},
+		{
+			"x": 129.3358223314607,
+			"y": 8.114914747190994,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 0.75,
+			"meta": {},
+			"id": "shape:aoN8kejbUqPgcFaDkIlRR",
+			"type": "geo",
+			"props": {
+				"w": 649,
+				"h": 61.6875,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "red",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "net cash flow = cash inflows - cash outflows"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:5bcyliInXGeWTLxPHizh9",
+			"index": "a1Q4TtsV",
+			"typeName": "shape"
+		},
+		{
+			"x": 137,
+			"y": 143.8046875,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:neqkDie7lNdAbSfIezF6k",
+			"type": "text",
+			"props": {
+				"color": "blue",
+				"size": "m",
+				"w": 20,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "page:oYtIGPLCF-To6gNulJ7aQ",
+			"index": "a10zdgFG",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "page:MIlfUDWRqEZGs2QoU89r8",
+			"name": "Page 7",
+			"index": "a7GjIxsV",
+			"typeName": "page"
+		},
+		{
+			"editingShapeId": null,
+			"croppingShapeId": null,
+			"selectedShapeIds": [
+				"shape:Lmcd0rl1zFcsR09RsEN0h"
+			],
+			"hoveredShapeId": "shape:Lmcd0rl1zFcsR09RsEN0h",
+			"erasingShapeIds": [],
+			"hintingShapeIds": [],
+			"focusedGroupId": null,
+			"meta": {},
+			"id": "instance_page_state:page:oYtIGPLCF-To6gNulJ7aQ",
+			"pageId": "page:oYtIGPLCF-To6gNulJ7aQ",
+			"typeName": "instance_page_state"
+		},
+		{
+			"x": 45,
+			"y": 319.8046875,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 0.75,
+			"meta": {},
+			"id": "shape:FgFBzHaSAQVxI4q3TyUjc",
+			"type": "text",
+			"props": {
+				"color": "blue",
+				"size": "m",
+				"w": 937.921875,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "assets: what you own"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "liabilities: what you owe"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "equity: ownership of companpy ( property received in exchange of shares )"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:dhxsp0GPiJ003NsEtKe3M",
+			"index": "a2YMmAyV",
+			"typeName": "shape"
+		},
+		{
+			"editingShapeId": null,
+			"croppingShapeId": null,
+			"selectedShapeIds": [],
+			"hoveredShapeId": null,
+			"erasingShapeIds": [],
+			"hintingShapeIds": [],
+			"focusedGroupId": null,
+			"meta": {},
+			"id": "instance_page_state:page:dhxsp0GPiJ003NsEtKe3M",
+			"pageId": "page:dhxsp0GPiJ003NsEtKe3M",
+			"typeName": "instance_page_state"
+		},
+		{
+			"x": 86,
+			"y": 46.8046875,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:enbrmQbgx6ObG5UXlQYee",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 491.046875,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1.0203646545963663,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "account nature : credit and debit "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "credit account increases when credited"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "debit accounts increases when debited"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "a49nHB6V",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "page:zr613PhWtTNWRzs7vdquH",
+			"name": "Page 6",
+			"index": "a6U4XoZl",
+			"typeName": "page"
+		},
+		{
+			"x": 184.69777914325846,
+			"y": 357.9441608146068,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:_gW3_jJUoZq85VZ_j9S75",
+			"type": "geo",
+			"props": {
+				"w": 626.8709749297755,
+				"h": 129.2283745786517,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "blue",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "page:5bcyliInXGeWTLxPHizh9",
+			"index": "a52N2hmV",
+			"typeName": "shape"
+		},
+		{
+			"editingShapeId": null,
+			"croppingShapeId": null,
+			"selectedShapeIds": [],
+			"hoveredShapeId": "shape:bPbAhZ9F098azd4kP1cL_",
+			"erasingShapeIds": [],
+			"hintingShapeIds": [],
+			"focusedGroupId": null,
+			"meta": {},
+			"id": "instance_page_state:page:5bcyliInXGeWTLxPHizh9",
+			"pageId": "page:5bcyliInXGeWTLxPHizh9",
+			"typeName": "instance_page_state"
+		},
+		{
+			"meta": {},
+			"id": "page:_qWBqbv8V7kHS8b4qDIGy",
+			"name": "Page 4",
+			"index": "a41UBFzt",
+			"typeName": "page"
+		},
+		{
+			"x": 47,
+			"y": 79,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 0.75,
+			"meta": {},
+			"id": "shape:2xMz4OM0gSnR9jR-dqs_X",
+			"type": "geo",
+			"props": {
+				"w": 600,
+				"h": 64,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "red",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "page:_qWBqbv8V7kHS8b4qDIGy",
+			"index": "a2pDKUVl",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "page:page",
+			"name": "Page 1",
+			"index": "a1",
+			"typeName": "page"
+		},
+		{
+			"gridSize": 10,
+			"name": "",
+			"meta": {},
+			"id": "document:document",
+			"typeName": "document"
+		},
+		{
+			"followingUserId": null,
+			"opacityForNextShape": 1,
+			"stylesForNextShape": {
+				"tldraw:geo": "rectangle",
+				"tldraw:size": "m",
+				"tldraw:color": "blue"
+			},
+			"brush": null,
+			"scribbles": [],
+			"cursor": {
+				"type": "default",
+				"rotation": 0
+			},
+			"isFocusMode": false,
+			"exportBackground": true,
+			"isDebugMode": false,
+			"isToolLocked": false,
+			"screenBounds": {
+				"x": 0,
+				"y": 0,
+				"w": 1018,
+				"h": 606
+			},
+			"insets": [
+				false,
+				false,
+				true,
+				false
+			],
+			"zoomBrush": null,
+			"isGridMode": false,
+			"isPenMode": false,
+			"chatMessage": "",
+			"isChatting": false,
+			"highlightedUserIds": [],
+			"isFocused": true,
+			"devicePixelRatio": 1,
+			"isCoarsePointer": false,
+			"isHoveringCanvas": true,
+			"openMenus": [],
+			"isChangingStyle": false,
+			"isReadonly": false,
+			"meta": {},
+			"duplicateProps": null,
+			"id": "instance:instance",
+			"currentPageId": "page:page",
+			"typeName": "instance"
+		},
+		{
+			"x": 0,
+			"y": 0,
+			"z": 1,
+			"meta": {},
+			"id": "camera:page:oYtIGPLCF-To6gNulJ7aQ",
+			"typeName": "camera"
+		},
+		{
+			"x": 67,
+			"y": 93.8046875,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 0.75,
+			"meta": {},
+			"id": "shape:onsJYEQmLUx-bnLa1oX-d",
+			"type": "text",
+			"props": {
+				"color": "red",
+				"size": "m",
+				"w": 705.84375,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "income statement: profit = revenue - sales "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "highlight"
+										}
+									],
+									"text": "gross profit"
+								},
+								{
+									"type": "text",
+									"text": " = revenue - cost of goods sold"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "highlight"
+										}
+									],
+									"text": "operating profit"
+								},
+								{
+									"type": "text",
+									"text": " = gross profit - operating expenses"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "                   operating profit = "
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "highlight"
+										}
+									],
+									"text": "EBIT"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "highlight"
+										}
+									],
+									"text": "EBITDA"
+								},
+								{
+									"type": "text",
+									"text": " = operating profit + depreciation+ amoritization"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "highlight"
+										}
+									],
+									"text": "EBITDA > EBIT"
+								},
+								{
+									"type": "text",
+									"text": " "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "highlight"
+										}
+									],
+									"text": "PBT"
+								},
+								{
+									"type": "text",
+									"text": "= operating profit - interest on loans nd borrowings"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "highlight"
+										}
+									],
+									"text": "net profit"
+								},
+								{
+									"type": "text",
+									"text": " = pbt - taxes "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						}
+					]
+				}
+			},
+			"parentId": "page:_qWBqbv8V7kHS8b4qDIGy",
+			"index": "a1rF8ShV",
+			"typeName": "shape"
+		},
+		{
+			"x": 171,
+			"y": -26,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 0.5,
+			"meta": {},
+			"id": "shape:7ACBT33iVi4ujOXSA3v02",
+			"type": "geo",
+			"props": {
+				"w": 60,
+				"h": 32,
+				"geo": "arrow-right",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "a2M9s8HV",
+			"typeName": "shape"
+		},
+		{
+			"x": 49,
+			"y": 120.8046875,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:1bXcd22P7LEeimti5VBDm",
+			"type": "text",
+			"props": {
+				"color": "blue",
+				"size": "m",
+				"w": 1024.15625,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "orderedList",
+							"attrs": {
+								"start": 1,
+								"type": null
+							},
+							"content": [
+								{
+									"type": "listItem",
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "Make income statement"
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "make balance sheet"
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "make cash flow statement"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "retained earnings from income statement goes to equity in balance sheet"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "change in working capital : current assets - current liabilities goes into cash flow"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "cash flow statement gives net change in cash "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						}
+					]
+				}
+			},
+			"parentId": "page:zr613PhWtTNWRzs7vdquH",
+			"index": "a23OJuDV",
+			"typeName": "shape"
+		},
+		{
+			"x": 223,
+			"y": 229,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 0.75,
+			"meta": {},
+			"id": "shape:ppz1L4uV1ZDwoTUcsnSMy",
+			"type": "geo",
+			"props": {
+				"w": 486,
+				"h": 67,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "assets = liabilities + equity"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:dhxsp0GPiJ003NsEtKe3M",
+			"index": "a1uPRtqV",
+			"typeName": "shape"
+		},
+		{
+			"x": 0,
+			"y": 0,
+			"z": 1,
+			"meta": {},
+			"id": "camera:page:dhxsp0GPiJ003NsEtKe3M",
+			"typeName": "camera"
+		},
+		{
+			"x": 55.93507563202246,
+			"y": 120.78975351123597,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 0.5,
+			"meta": {},
+			"id": "shape:bPbAhZ9F098azd4kP1cL_",
+			"type": "text",
+			"props": {
+				"color": "red",
+				"size": "m",
+				"w": 711.8125,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "cash flow statement gives info about, why there is cash "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "difference in balance sheet  "
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:5bcyliInXGeWTLxPHizh9",
+			"index": "a2MKvENV",
+			"typeName": "shape"
+		},
+		{
+			"x": 169,
+			"y": 91,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 0.75,
+			"meta": {},
+			"id": "shape:MauyS_BGOHVP3Eg91uEZ0",
+			"type": "text",
+			"props": {
+				"color": "light-red",
+				"size": "m",
+				"w": 463,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "BALANCE SHEET : ALWAYS BALANCEd "
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:dhxsp0GPiJ003NsEtKe3M",
+			"index": "a3n7dNXV",
+			"typeName": "shape"
+		},
+		{
+			"x": 29.549262921348316,
+			"y": 98.88947914325843,
+			"z": 0.8821592035936092,
+			"meta": {},
+			"id": "camera:page:5bcyliInXGeWTLxPHizh9",
+			"typeName": "camera"
+		},
+		{
+			"x": 28,
+			"y": 75.8046875,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 0.75,
+			"meta": {},
+			"id": "shape:Lmcd0rl1zFcsR09RsEN0h",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 805.78125,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "highlight"
+										}
+									],
+									"text": "TRIAL BALANCE --> debits should be equal to credits . "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "trial balance is calculated for validation of journal entries."
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "first step for period closure."
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "highlight"
+										}
+									],
+									"text": "epm system:"
+								},
+								{
+									"type": "text",
+									"text": " debits are positive and credits are negative"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "highlight"
+										}
+									],
+									"text": "reporting:"
+								},
+								{
+									"type": "text",
+									"text": " all accounts are positive. flip the sign of credit nature"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "accounts while reporting."
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						}
+					]
+				}
+			},
+			"parentId": "page:oYtIGPLCF-To6gNulJ7aQ",
+			"index": "a11zeIVl",
+			"typeName": "shape"
+		}
+	]
+}

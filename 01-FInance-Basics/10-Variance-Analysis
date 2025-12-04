@@ -1,0 +1,46 @@
+variance = actual - planned
+
+reasons for variance are at stake
+1. why are we seeing variance
+2. what happened
+3. is it recurring 
+4. what has to be done
+
+variance is it favorable or not?
+
+revenue : if actual is greater than planned , favorable
+expense: if actual is greater than planned , unfavoarable
+
+types of variance:
+
+a. financial variance  (revenue, cost, profit)
+b. cost accounting variance (material, labour, overhead, volume, efficiency)
+
+a)
+
+revenue volume = ( actual quantity - budjet quantity ) * budget price  ---> variance due to change in sales quantity
+revenue price = ( actual price - budget price ) * actual quantity  ---> variance due to change in sp
+mix variance = variance caused by change in volume of sales and price 
+
+profit variance = revenue varaiance - cost variance
+
+expense variance = actual expense - budget expense
+
+b)
+
+material price variance
+material usage varaince
+labor rate variance 
+labor efficiency variance
+variable overhead variance
+fixed overhead variance
+
+--------------
+
+case study : revenue fell by 10%
+
+break into: price impact, volume impact, mix impact
+
+operating expenditure increases by 15%
+
+break into: hr variance, rate variance, volume variance, exceptional variance

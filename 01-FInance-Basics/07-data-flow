@@ -1,0 +1,20 @@
+CRM ( Transactional data )  ---> CPQ
+
+ERP ( Ledgers )   ---> SAP, ERP, Peoplesoft
+
+EPM ( Analytical data in multi dimensional databases )
+
+Reporting 
+
+----------------
+
+admin builds model in plannning ( Capex, workforce, financials, project)
+user enters budget input
+system calculates totals using planning logic
+data goes through approvals
+financial budget is locked
+actuals come from ERP
+epbcs compares actuals with budget
+forecast cycle updates using same drivers
+rolling forecast uses planning logic
+future budgets get refined using actual performance

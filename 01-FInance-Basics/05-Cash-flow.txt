@@ -1,0 +1,15 @@
+Cash flow statement :
+
+cash flow = cash inflows - cash outflows
+
+explains difference between cash between two balance sheets
+
+closing balance of previous year is opening balance of this year
+
+cash flow statement derives insights in understanding what caused cash change
+
+methods of making cash flow statements
+
+start with net profit, add back non cash expenses like depreciation and amortization , changes in working capital and record financing activities that has dealt with cash  --> indirect methods
+
+start from scratch: from opening cash balance add cash expenses receipt by receipt --> direct method 

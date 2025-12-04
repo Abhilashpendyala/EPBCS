@@ -1,0 +1,89 @@
+planning: deciding what business wants to achieve and how to achieve it ==> goals and actions
+
+operational planning (monthly) to strategic planning ( 1-5 years) , admins and architects
+
+admins build revenue models in financials
+define drivers and units
+create forms for inputs
+add rules to inflate prices
+configure mappings and data maps
+
+Budgeting : assign financial numbers to plan
+
+assigning financial numbers to yearly plan, for cost control and achieving long term targets ,
+
+users inputs budget forms
+enter units for each month
+approves entity
+admin locks budget scenario
+
+forecast : estimates based on actuals to see if the targets are being met as per present finacial condition
+
+1. driver based forecast:
+
+uses business drivers --> calculates revenues and costs
+
+units*price
+FTEs* cost per employee  ( fte is full time equivalent of work compared to a defined unit of work)
+conversion %
+churn %
+
+2. Trend based forecast:
+
+uses patterns from history
+
+average of last three months
+weighted averages
+linear trends based on the rate of change
+
+3. seasonality based forecast:
+
+used when numbers spike in periods
+
+seasonal indexes
+
+4. Rolling forecast:
+
+forecasts for  next 12 or 18 months: everymonth , drops previous month and add one new month
+
+driver based formulas
+trend based projections
+seasonality adjustments
+
+5. zero  based forecast
+
+assumes nothing and builds from zero
+
+operating expenses forecast is built based on activity but not history
+
+6. scenario forecast
+
+multiple versions
+
+best case
+average case
+worst case
+
+7. ai or statistical forecast
+
+used in fpa and data science
+
+math:
+arima
+holt winters
+ml models
+exponential smoothing
+
+
+approaches in budgeting:
+-------------------------
+
+top down approach --> driven by parent or business level motives and targets for next cycle, company makes budget according to its vision or plan on a whole
+
+
+bottom up approach --> driven by entity or region based targets, whatever the budget is demanded at entity level for reaching their targets is understood by finance leaders, and will plan the budget based on it.
+
+best approach: hybrid approach is more sensible by considering the entity based targets and setting targets as a overall company
+
+
+

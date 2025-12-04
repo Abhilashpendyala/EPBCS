@@ -1,0 +1,63 @@
+DEBITS AND CREDITS   
+------------------
+
+Every transaction has two accounts involved ( Two sided Accounting )
+
+One is credited , other is debited ---> Journal entry records a transaction
+
+What should you credit, and what should you debit ???
+
+    It totally came by arbitrary choice and has become a standard for accounting
+
+Own --> Increases with Debits
+Owe --> Increases with credits 
+
+If what you own is increasing ----> Debit it
+If what you owe is increasing ---> credit it 
+
+The same rule is passed on to more accounts present in balance sheet
+
+Assets = Liabilities + Equity --> LHS ( what you own , RHS what you owe ) --> always balanced
+
+Assets = Liabilities + ( Ownership + Income - Expense )
+
+Assets : what you own ---> debit with increasing
+liabilities : what you owe ---> credit with increasing
+Expenses : decrease what you owe ---> debit with increasing 
+
+
+Nature of account:
+---------------------
+
+Debit Nature of account : Account increases when you debit it --> Assets and Expenses
+Credit Nature of account: Account increases when you credit it  --> Liabilities, Equity & Income
+
+
+Your bank Account is Asset for You, Liability for bank
+--->   Pers bank acc: You debit money in your account, When banks speaks they credit money in your account
+
+Credit cards are your liability and banks asset
+--->   Credit card: Credited when you do a purchase, Debited when you repay
+
+In Two sided Accounting ----> TRIAL BALANCE : TOTAL CREDITS == TOTAL CREDITS 
+
+
+ERP and EPM systems:
+
+Debits are +ve 
+Credits are -ve
+
+Signs are flipped, when viewed in smart viewed(for example income is -ve in EPM systems )
+Debits +ve , credits -ve irrespective of accounts
+
+reports flip signs for readability
+
+Two conventions:
+In ERPs ---> Debits +ve , credits -ve ( simple one rule )
+In Accounting standards ---> Debits and credits increases respective account balance
+
+
+Assets = liabilities + Equity
+
+LHS ----> Debit Nature
+RHS ---> Credit Nature ( Exception, Expenses as they decrease equity )
