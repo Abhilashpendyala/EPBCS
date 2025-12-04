@@ -1,0 +1,5 @@
+* create repository in github
+* connect the repository to vs code using rpository url
+     command : https://github.com/Abhilashpendyala/EPBCS
+* verify repository connection
+      git remote -v
