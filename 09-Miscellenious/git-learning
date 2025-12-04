@@ -1,5 +1,22 @@
 * create repository in github
-* connect the repository to vs code using rpository url
+* connect the repository to vs code (local repository) using repository url
      command : https://github.com/Abhilashpendyala/EPBCS
 * verify repository connection
       git remote -v
+* force push : Removes existing commits in git hub and push freshly
+      git push -u origin main --force
+* Push
+      git push
+* Pull  -- > updates your local repo with commits from github ( when github is ahead of your repo)
+* clone --> download the whole repo in your local machine ( you only do it once)
+     git clone https://github.com/Abhilashpendyala/EPBCS
+* fetch --> show's whats new on git hub repo, but do not disturb your local code
+     git fetch origin
+
+origin/main --> updated version
+main --> your version
+
+** pull automatically merges git hub to your local
+
+* merge --> when working on multiple branches, you create new branch (checkout) and merge
+     
