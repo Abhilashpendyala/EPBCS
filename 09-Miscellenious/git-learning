@@ -29,3 +29,10 @@ main --> your version
 
 * commit
 git commit -m "commit message"
+
+* pull request irrespective of common work
+git pull origin main --allow-unrelated-histories
+
+* nick name for remote repo
+git remote add "abhi" https://github.com/Abhilashpendyala/EPBCS ---> abhi here is nickname for remote repo
+
