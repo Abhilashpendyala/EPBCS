@@ -1,0 +1,57 @@
+seasonality : sudden spikes or irregular patterns that repeat every year
+
+example:
+
+q4 sales spikes
+summer electricity usage increases
+jan/feb low travel expenses
+holiday or march hiring process
+year end marketing spends
+
+forecast based on seasonality spikes
+
+trend based forecasting often needs seasonal factors , not simple averages
+
+sales in dec = 1.5 * normal
+travel in q1 = 0.8 * normal
+
+-------------------------------
+
+predictive planning provides features of seasonality analysis
+
+predictive planning analyses historical actuals and produces 
+
+** seasonality indexes
+** trend line
+** forecast curve
+** confidence intervals
+** forecast vs actual chart
+
+it automatically detects if actuals are:
+** seasonal
+** trending
+** cycling
+** random
+
+trend based forecasting:
+
+seasonality based on proir year
+3 year seasonal average
+12 month weighted average seasonal index
+last year seasonal distribution
+
+assigning seasonal pattern
+
+epbcs capabilities;
+
+predicitive planning  --> to find seasonal patterns
+financials and forecast methods --> apply seasonal factors
+forms --> show seasonal indices
+rules --> apply seasonality to forecast numbers
+
+------------------------
+
+predictive planning reads actual data from cubes and gives seasonality indexes between (0.7-1.3)
+it is based on seasonal decomposition, exponential smoothing, regression analysis (internal ml algos), detect patterns 
+
+** generates seasonality indexes for time granularity your period dimension uses.
