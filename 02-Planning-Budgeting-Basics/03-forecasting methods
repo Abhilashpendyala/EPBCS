@@ -1,0 +1,175 @@
+the core forecasting methods are generic for all planning modules
+
+1) Driver based forecasting:
+
+driver: any input factor that drives a calculated output
+
+** rate based drivers : sales growth , inflation, merit increase, benefits%, price increase %
+** operational activity drivers: volume ( units sold), kwh consumption, headcount, hours worked, number of calls, number of machines, number of passengers, square footage(for rent), number of shipments
+** finanical drivers : price, salary rate
+
+the cells are values in the future are forecasted using drivers
+
+drivers:
+headcount
+volume
+price
+hours
+rate 
+units * cost
+headcount * salary grade * benefits %
+
+Example: 
+revenue= volume * price
+salary forecast = headcount * salary rate * benefits *
+energy cost = kwh * rate
+
+------------------------
+
+how drivers are entered ???
+how calculations run ??
+where driver accounts exist in chart of accounts ??
+how driver inputs feed planning forms ??
+how to build rules using drivers ???
+
+2) trend based forecasting:
+--------------------------------
+
+trends that can be used to predict the future
+** yoy growth percentage
+** mom growth
+** rolling 3 month average
+** linear trend
+** moving average
+** seasonality patterns
+
+example:
+
+forecast jan= last jan * 1.05
+forecast feb = average of last three months
+
+epbcs has built in trend methods
+
+3) zero based forecasting:
+-----------------------------
+
+every line item starts at zero and user must justify each amount
+
+** opex planning
+** non comp expenses
+** travel/ training expenses
+** it spend
+
+as implementer : configure forms so that user manually inputs everything from scratch
+
+4) incremental forecasting:
+-----------------------------
+
+** increase by 5% every year
+** increase by 1% every month
+** increase based on inflation assumption
+
+expenses_forecast = expense last year + expense last year*inflation rate
+
+5) rolling forecast
+-----------------------
+
+at feb 2025 --> forecast for march 2025 - feb 2026
+
+epbcs has rolling forecast 
+
+*** doubt ?? do we have to build rolling forecast based on drivers
+
+ans: rolling forecast is only feature of looking forward with the current actuals, you still other forecasting methods to be able to produce numbers
+
+6) run rate forecasting
+-------------------------
+
+use average of past months to estimate remaining months
+
+jan - apr average = 100
+remaining months = 100 each
+
+7) scenario based forecasting
+-------------------------------
+
+best case
+worst case
+most likely
+stress case
+
+8) ai/ml based forecasting ( predictive planning)
+-------------------------------------------------
+
+regression
+exponential smoothing
+neural models
+
+
+--------------------------------------------------------------------
+
+module based forecasting : though the forecasting methods are same the logic will differ
+
+1) financials: most forecasting - heavy
+
+trend based
+run rated
+driver based
+zero based
+predictive planning
+
+built in drivers we have are : revenue drivers, expense drivers, balance sheet assumptions, cash flow drivers
+
+2) work force module -- employee driven
+
+headcount-based calculations
+salary grade
+step rate/merit rate
+benefits rate
+employment type
+taxes and social charges %
+driver based fte calculations
+
+3) capex module
+
+asset type
+asset class
+useful life
+depreciation method
+in-service date
+salvage value
+capital spend
+
+forecasts:
+
+depreciation
+amoritzation
+accumulated depreciation
+capital expenses schedules
+
+4) projects
+
+drivers:
+
+labor cost rate
+material cost
+overheads
+task duration
+resource cost
+funding source
+
+forcasts:
+
+project cost
+completion cost
+revenue
+
+5) revenue module
+
+uses trend + driver based forecasting
+
+unit price
+quantity
+seasonality
+cost per unit
+inflation adjustment
