@@ -1,0 +1,138 @@
+essbase : multidimensional database referred to as cubes  ---> OLAP cubes
+
+why cube, cube is 3d ?? is essbase restricted to 3d ??? --> no --> n dimensional.
+
+each data point is interesection of n dimension members of cell.
+
+cubes : two types --> aso, bso
+
+aso : aggregate storage option
+bso : block storage option
+hybrid cubes : databases providing functionality of aso and bso
+
+1) Aggregate storage Option:
+-------------------------------
+
+aso cubes are mainly used for reporting purposes.
+these are read heavy databases.
+data is stored in huge .dat file.
+.otl file stores dimension structure
+no concept of dense and sparse dimensions, data is stored as sparse compressed tuples
+no concept of data blocks
+
+** ASO is like columnor storage
+
+data file format:
+
+column axis header, the header contains columns that show data 
+multiple data points in single row mapping to column
+trialing #Mi values are not shown
+Run aggregations for higher level data ---> most calculations are dynamic aggregations
+
+Parent=SUM(Children)
+
+stored as: Dim1.Member , Dim2.Member , Dim3.Member
+
+** data is indexed by dimension combinations
+
+*** member formulas exist in aso, but they must be simple
+*** only mdx formulas
+
+** no store: everything is calculated on request
+
+Applications:
+
+dashboards
+smart view reports
+ad hoc analysis
+management reporting
+large datasets
+
+** aso scans indexes which is why querying is much faster
+
+retreival path:
+
+query received
+engine parses it
+uses indexes to locate compressed data
+reads necessary rows/columns
+applies aggregations dynamically
+returns result set
+
+--------
+
+ASO dat file format:
+(Ent_Ind,Prod_Lap,Jan,Feb,POV,5000) ---> tuple
+
+compressed tuple :
+(12,44,5,3,201,5000) ---> member names are replaced with numbers for speed
+
+**** multiple index files are created
+
+.csc --> cell selection index (contains sorted list of all tuples by dimension)
+.cpg --> aggregation index (used to quickly find children/parents for rollups)
+.esm/.esl --> aggregate view structures (used to optimize roll up paths)
+.dat --> raw compressed data values
+
+Retreival ==> find pointer ==> read value ==> aggregate ==> return
+
+example:
+
+give revenue for apac, laptops, q1,plan
+
+use indexes 
+==> aso finds all tuples that match entity, product,period,scenario,account
+
+** indexes match direct lookups and not scanning all data
+
+using cpg:
+identifies hirearchial relationships and aggregates on fly based on mdx queries
+
+why otl ===> otl gives meaning to the compressed mappings of tuples in numerical data
+
+**** member formulas are based on mdx and limited functionality
+*** no bso calc scripts
+
+smart push sends results to aso from bso (using data maps)
+
+2) Block storage option:
+--------------------------
+
+** data is stored as blocks
+** multiple page files are created representing the actual file
+** index file is used to identify the exact location of the block
+** used for write and calculation heavy use cases
+
+when is the block created ??
+
+block is created when it identifies the unique combination of dense sparse combination members
+* dense dimensions are dimensions that have data most of the times
+* sparse dimensions are dimensions that may not have data at reliable enough times
+* dense and sparse are defined as per the business data , by planning implementer
+* account, period and year are set to dense in general as they are calculation heavy and has most data
+
+data block contains data cells, data cells are all unique combination of dense dimension members for
+that particular spare pov
+
+example : whenever the block is created it is filled with data of all dense dimension combination members
+              lets say suppose , data of all accounts of all years and all periods
+
+
+*** why write heavy ?? --> coz writing updates only one block to memory --> blocks are cached for write fast
+
+*** bso has full calculation engine
+FIX/ENDFIX
+IF/ELSE
+LOOP
+SET
+Agg/calc/missing handiling
+cross dimn ops
+custom logic
+
+how bso perfoms calcs ??
+
+* bso loads data blocks into memory
+* applies formulas line by line
+* update stored cells
+* saves block back to disk
+* very fast for write --> update --> write
